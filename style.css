@@ -1,0 +1,64 @@
+body {
+    overflow-x: hidden;
+}
+
+.heading {
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading button {
+    border: blue 5px solid;
+    font-size: large;
+}
+
+.big_image {
+    width: 100vw;
+}
+
+.buttons {
+    font-size: large;
+}
+
+.footer {
+    background: #666;
+    color: #fff;
+    padding-top: 5px;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 5px;
+}
+
+.fit {
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+}
+
+.modal-dialog {
+    width: 75%;
+}
+
+a {
+    color: white;
+    text-decoration: solid underline white;
+}
+
+a:hover {
+    border: 1px solid white;
+    padding : 2px;
+    color: white;
+    text-decoration: solid underline white;
+}
+
+video {
+    background: url('game_console.png');
+    background-size: cover;
+    padding: 25px;
+    background-position: center;
+    
+}
